@@ -1,4 +1,4 @@
-# Traffic Sign Recognition - Neural Network
+# Traffic Sign Recognition - Neural Network & SVM
 
 ## First Step: Get the Dataset
 **Dataset Used:** https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign<br/>
@@ -6,12 +6,12 @@ If you can't download the dataset on your local pc, you can just download it in 
 
 <br/>
 
-## Second Step: Work on Building and Trainign the Model
+## Second Step: Work on Building and Trainign the Models
 Go To File => TrafficSignModel
 
 <br/>
 
-## Third Step: Build Simple GUI
+## Third Step: Build Simple GUI using NN Model
 Go To File => TrafficSignApp
 
 <br/>
