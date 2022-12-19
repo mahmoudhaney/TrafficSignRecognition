@@ -72,8 +72,8 @@ def classify(file_path):
     image = numpy.array(image)
     pred = model.predict([image])[0]
     pred = numpy.argmax(pred, axis=0)
-    print("Number of Prediction Class => ", pred)
     sign = classes[pred+1]
+    print("Number of Prediction Class => ", pred+1)
     print("Name   of Prediction Class => " ,sign)
     label.configure(foreground='#04b6b6', text=sign) 
    
