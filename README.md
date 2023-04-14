@@ -7,28 +7,22 @@ If you can't download the dataset on your local pc, you can just download it in 
 <br/>
 
 ## Second Step: Work on Building and Trainign the Models
-Go To File => TrafficSignModel
+Go To File => [TrafficSignModel](TrafficSignModel) You will find the model is build using
+- ANN
+- CNN
+- SVM
 
-<br/>
 
 ## Third Step: Build Simple GUI using NN Model
-Go To File => TrafficSignApp
+Go To File => [TrafficSignApp](TrafficSignApp) You find the GUI Implementation in [TrafficSignGUI.py](TrafficSignApp/TrafficSignGUI.py) File
+To Run this application you need to install the dependencies first using `pip` like
+- `numpy`
+- `tkinter`
+- `keras`
+- `tensorflow`
+- `pillow`
+#### After that, you can run the [TrafficSignGUI.py](TrafficSignApp/TrafficSignGUI.py) File and use it like in [Demo](#demo).
 
-<br/>
 
-## Demo:
-<h3>Initial GUI</h3>
-
-![Screenshot_20221212_064110](https://user-images.githubusercontent.com/83553963/207110835-e8348b47-d0ab-4d98-9cae-90cab7fd978e.png)
-
-<h3>Upload Sign Image</h3>
-
-![Screenshot_20221212_064211](https://user-images.githubusercontent.com/83553963/207110866-4ad283f1-3f7a-4d55-85d7-1cfbda397c4e.png)
-
-<h3>Recognition Image to See the Result</h3>
-
-![Screenshot_20221212_064220](https://user-images.githubusercontent.com/83553963/207110888-4020ff73-e96b-40a1-9c8f-d99283c678c2.png)
-
-<h3>Another Image</h3>
-
-![Screenshot_20221212_064237](https://user-images.githubusercontent.com/83553963/207110913-ecf27c4f-bb74-4212-a208-9d3b9d131861.png)
+## Demo
+https://user-images.githubusercontent.com/83553963/232090287-ee53ab8b-ec79-4024-a42d-e0d28e44ce79.mp4
