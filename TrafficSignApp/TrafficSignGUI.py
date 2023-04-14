@@ -7,7 +7,7 @@ from keras.models import load_model
 
 
 # Get the tained model
-model = load_model('NN_Model.h5')
+model = load_model('TrafficSignApp/CNN_Model.h5')
 
 # All Traffic Signs classes Names
 classes = { 1:'Speed limit (20km/h)',
